@@ -1,0 +1,33 @@
+package org.company;
+
+public class CompanyInfo {
+	String companyName;
+	int companyId;
+	String companyAddress;
+	
+	CompanyInfo(String Name,int id,String Address){
+		companyName=Name;
+		companyId=id;
+		companyAddress=Address;
+	}
+	
+	void companyName() {
+		System.out.println("The Name of the company is " + companyName);
+	}
+	void companyId() {
+		System.out.println("The Id of the company is " + companyId);
+		
+	}
+	void companyAddress() {
+		System.out.println("The address of the company is " + companyAddress);
+	}
+	void display() {
+		companyName();
+		companyId();
+		companyAddress();
+	}
+	public static void main(String args[]) {
+		CompanyInfo Comp1= new CompanyInfo("Tekizma",101,"jp Nagar");
+		Comp1.display();
+	}
+}
