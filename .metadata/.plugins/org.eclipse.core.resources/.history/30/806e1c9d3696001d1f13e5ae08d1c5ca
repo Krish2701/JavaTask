@@ -1,0 +1,44 @@
+package org.emp;
+
+public class Employee {
+	int employee_id;
+	String employee_name;
+	int employee_dob;
+	long employee_phone;
+	String employee_Email;
+	String employee_address;
+	
+	void empId() {
+		System.out.println(employee_id);
+		
+	}
+	void empName() {
+		System.out.println(employee_name);
+	}
+	void empDob() {
+		System.out.println(employee_dob);
+	}
+	
+	void empPhone() {
+		System.out.println(employee_phone);
+	}
+	void empEmail(){
+		System.out.println(employee_Email);
+	}
+	void empAddress(){
+		System.out.println(employee_address);
+	}
+public static void main(String args[]) {
+	@SuppressWarnings("unused")
+	Employee emp1= new Employee();
+	emp1.employee_id = 20;
+	emp1.employee_name="Krish";
+	emp1.employee_dob=27-01-2001;
+	emp1.employee_phone=9677354419L;
+	emp1.employee_Email="gobikrish4567@gmail.com";
+	emp1.employee_address="Coimbatore";
+	emp1.empId();
+	
+	
+}
+}

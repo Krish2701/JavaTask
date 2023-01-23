@@ -1,0 +1,18 @@
+package org.character_index;
+
+import java.util.Scanner;
+
+public class char_index {
+
+	public static void main(String[] args) {
+		String S;
+		String a;
+		Scanner sc = new Scanner(System.in);
+		S=sc.next();
+		a=sc.next();
+		System.out.println(S.indexOf(a));
+		
+
+	}
+
+}

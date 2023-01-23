@@ -1,0 +1,32 @@
+package org.emp;
+
+public class Employee {
+	int employee_id;
+	String employee_name;
+	int employee_dob;
+	int employee_phone;
+	String employee_Email;
+	String employee_address;
+	
+	void empId() {
+		System.out.println(employee_id);
+		
+	}
+	void empName() {
+		System.out.println(employee_name);
+	}
+	void empDob() {
+		System.out.println(employee_dob);
+	}
+	
+	void empPhone() {
+		System.out.println(employee_phone);
+	}
+	void empEmail(){
+		System.out.println(employee_Email);
+	}
+	void empAddress(){
+		System.out.println(employee_address);
+	}
+public static void main()
+}

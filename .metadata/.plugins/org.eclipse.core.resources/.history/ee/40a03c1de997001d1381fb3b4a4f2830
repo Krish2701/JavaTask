@@ -1,0 +1,24 @@
+package org.bank;
+
+public class BankInfo {
+	public void saving(String Amt_deposited, String Amt_returns) {
+		System.out.println("The total amount deposiited is :" + Amt_deposited);
+		System.out.println("The total amount returned is : " + Amt_returns);
+	}
+	public void fixed(String Amt_deposited, String Amt_returns) {
+		System.out.println("The total amount deposiited is :" + Amt_deposited);
+		System.out.println("The total amount returned is : " + Amt_returns);
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
+class AxisBank{
+	public void deposit(String account_depopsited) {
+		System.out.println("The type of account deposiited is :" + account_depopsited);
+		
+	}
+}

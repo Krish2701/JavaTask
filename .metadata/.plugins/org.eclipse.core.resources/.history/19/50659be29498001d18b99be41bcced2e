@@ -1,0 +1,47 @@
+package org.univ;
+
+public abstract class University {
+	String uni_name;
+	University(String Name){
+		this.uni_name = Name;
+	}
+	abstract public void ug();
+	abstract public void pg();
+}
+
+class College extends University{
+	int no_of_students;
+	int count_of_ug;
+	String ug_course_selected;
+	int count_of_pg;
+	String pg_course_selected;
+	College(int number, int count , String ug_selected, int coun_pg,String pg_selected, String Name) {
+		super(Name);
+		this.no_of_students = number;
+		this.count_of_ug=count;
+		this.ug_course_selected=ug_selected;
+		this.count_of_pg=coun_pg;
+		this.pg_course_selected=pg_selected;
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void ug() {
+		System.out.println("The no_of_students " + no_of_students);
+		System.out.println("The no_of_ug " + count_of_ug);
+		System.out.println("The ug course selected is " + ug_course_selected );
+		
+	}
+
+	@Override
+	public void pg() {
+		System.out.println("The no_of_students " + no_of_students);
+		System.out.println("The no_of_pg " + count_of_pg);
+		System.out.println("The pg course selected is " + pg_course_selected );
+		
+	}
+	public static void main(String[] args) {
+		College cl = new College(45,21,"bsc",24,"msc","Krish");
+	}
+	
+}

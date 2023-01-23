@@ -1,0 +1,10 @@
+package org.English;
+
+public class English {
+	int noe;
+	void tamillanguage(){
+		System.out.println("The count of the English Language Speakers:" + noe);
+	}
+
+
+}

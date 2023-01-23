@@ -1,0 +1,25 @@
+package org.emp;
+
+import org.company.Company;
+
+public class Employee {
+	private String empname;
+
+	public String getEmpname() {
+		return empname;
+	}
+
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	} 
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		Employee emp1 = new Employee();
+		Company comp= new Company();
+		comp.setCompanyName("Tekizma");
+		emp1.setEmpname("Krish");
+		System.out.println("Name: "+ comp.getCompanyName()+"\n" + "EmpName: "+"\n" + emp1.getEmpname());
+	}
+
+}
+

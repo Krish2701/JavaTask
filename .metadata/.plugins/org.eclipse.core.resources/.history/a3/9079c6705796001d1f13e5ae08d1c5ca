@@ -1,0 +1,29 @@
+package org.lang;
+class StateDetails{
+	
+}
+
+
+
+class LanguageInfo{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+public class Inheritedclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

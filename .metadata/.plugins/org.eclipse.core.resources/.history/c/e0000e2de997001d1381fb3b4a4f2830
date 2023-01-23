@@ -1,0 +1,42 @@
+package org.bank;
+
+import java.util.Scanner;
+
+public class BankInfo {
+	String Amt_deposited; 
+	String Amt_returns;
+	public void saving() {
+		System.out.println("The total amount deposiited is :" + Amt_deposited);
+		System.out.println("The total amount returned is : " + Amt_returns);
+	}
+	public void fixed() {
+		System.out.println("The total amount deposiited is :" + Amt_deposited);
+		System.out.println("The total amount returned is : " + Amt_returns);
+	}
+	
+	public static void main(String[] args) {
+		AxisBank ax = new AxisBank();
+		Scanner sc = new Scanner(System.in);
+		ax.account_depopsited= sc.next();
+		sc.close();
+		switch(ax.account_depopsited) {
+		case "fixed":
+			ax.fixed();
+			break;
+		
+		case "deposit":
+			ax.saving();
+		}
+		}
+		
+		
+	}
+
+}
+class AxisBank extends BankInfo{
+	String account_depopsited;
+	public void deposit( ) {
+		System.out.println("The type of account deposiited is :" + account_depopsited);
+		
+	}
+}

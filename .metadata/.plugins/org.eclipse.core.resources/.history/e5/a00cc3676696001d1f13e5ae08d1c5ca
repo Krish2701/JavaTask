@@ -1,0 +1,69 @@
+package org.langs;
+
+import java.util.Scanner;
+
+class LanguageInfo{
+	int percent_count;
+	String Greeting;
+	void tamilLanguage() {
+		System.out.println(60);
+		System.out.println("vanakam");
+
+		
+	}
+	void englishLanguage() {
+		System.out.println(percent_count);
+		System.out.println(Greeting);
+
+		
+	}
+	void hindiLanguage() {
+		System.out.println(percent_count);
+		System.out.println(Greeting);
+	
+		
+	}
+//	void printLanguage() {
+//		System.out.println("The English Language information");
+//		englishLanguage();
+//		System.out.println("The hindi Language information");
+//		hindiLanguage();
+//	}
+}
+class State_Details{
+	String Region;
+	void southIndia() {
+		System.out.println(Region);
+		
+	}
+	void northIndia() {
+		System.out.println(Region);
+		
+	}
+}
+
+public class StateDetails {
+
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		LanguageInfo lof1 = new LanguageInfo();
+		State_Details stds1 = new State_Details();
+		Scanner sc = new Scanner(stds1.Region);
+		System.out.println("Enter the state name:");
+		stds1.Region= sc.next();
+		sc.close();
+		switch(stds1.Region) {
+		case "South":
+			stds1.southIndia();
+			lof1.tamilLanguage();
+			lof1.englishLanguage();
+			break;
+			
+		}
+		
+		
+		
+
+	}
+
+}

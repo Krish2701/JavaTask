@@ -1,0 +1,48 @@
+package org.india;
+
+import java.util.Scanner;
+
+public class India {
+	public void india(String language) {
+		System.out.println(language);
+	}
+
+	public static void main(String[] args) {
+		String lang;
+		Andhrapradesh ap = new Andhrapradesh();
+		Scanner sc = new Scanner(System.in);
+		lang = sc.next();
+		sc.close();
+		if (lang.equals("Tamil")) {
+			ap.india("tamil");
+			ap.tamillanguage(70, "CBE");
+			
+		}else if (lang.equals("Telugu")) {
+			ap.india("Telugu");
+			ap.telugu(60, "Kadappa");
+			}else if (lang.equals("Malayalam")) {
+			ap.india("malayalam");
+			ap.malayalam(55, "ernakulam");
+		}
+
+}
+static class TamilNadu extends India{
+	public void tamillanguage(int per_count, String district) {
+		System.out.println(per_count);
+		System.out.println(district);
+	}
+}
+
+static class kerala extends TamilNadu{
+	public void malayalam(int per_count, String district) {
+		System.out.println(per_count);
+		System.out.println(district);
+	}
+}
+static class Andhrapradesh extends kerala{
+	public void telugu(int per_count, String district) {
+		System.out.println(per_count);
+		System.out.println(district);
+	}
+}
+}

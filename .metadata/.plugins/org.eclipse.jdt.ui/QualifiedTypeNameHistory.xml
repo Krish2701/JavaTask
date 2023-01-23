@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.security.auth.callback.LanguageCallback"/>
+    <fullyQualifiedTypeName name="org.all.Languageclass"/>
+    <fullyQualifiedTypeName name="org.tamil.Tamil"/>
+    <fullyQualifiedTypeName name="org.English.English"/>
+    <fullyQualifiedTypeName name="org.Telugu.Telugu"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

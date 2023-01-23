@@ -1,0 +1,15 @@
+package org.sc1;
+
+public class Scanner1 {
+
+@SuppressWarnings("unused")
+public static void main(String[] args) {
+	int empid;
+	String empName;
+	Long empPhoneno;
+	int empSalary;
+	String empGender;
+	String empCity;
+	Scanner sc = new Scanner(System.in);
+}
+}

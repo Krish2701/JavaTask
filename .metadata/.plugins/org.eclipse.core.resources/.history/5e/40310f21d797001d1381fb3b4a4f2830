@@ -1,0 +1,16 @@
+package org.all;
+
+import org.Telugu.Telugu;
+
+public class Languageclass {
+	int nos;
+	void alllanguage() {
+		System.out.println("The count of the Language Speakers:" + nos);
+	}
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		Telugu Tel= new Telugu();
+		Tel.tamillanguage(20);
+		
+	}
+}

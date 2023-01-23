@@ -1,0 +1,9 @@
+package org.tamil;
+
+public class Tamil {
+	int not;
+	void tamillanguage(){
+		System.out.println("The count of the Language Speakers:" + not);
+	}
+
+}

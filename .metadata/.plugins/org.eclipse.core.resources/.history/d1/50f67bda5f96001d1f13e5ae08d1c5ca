@@ -1,0 +1,55 @@
+package org.langs;
+
+class LanguageInfo{
+	int percent_count;
+	String Language;
+	void tamilLanguage() {
+		System.out.println(percent_count);
+		System.out.println(Language);
+
+		
+	}
+	void englishLanguage() {
+		System.out.println(percent_count);
+		System.out.println(Language);
+
+		
+	}
+	void hindiLanguage() {
+		System.out.println(percent_count);
+		System.out.println(Language);
+
+		
+	}
+//	void printLanguage() {
+//		System.out.println("The English Language information");
+//		englishLanguage();
+//		System.out.println("The hindi Language information");
+//		hindiLanguage();
+//	}
+}
+class State_Details{
+	String Region;
+	void southIndia() {
+		System.out.println(Region);
+		
+	}
+	void northIndia() {
+		System.out.println(Region);
+		
+	}
+}
+
+public class StateDetails {
+
+	public static void main(String[] args) {
+		@SuppressWarnings("unused")
+		LanguageInfo lof1 = new LanguageInfo();
+		lof1.englishLanguage();
+		
+		
+		
+
+	}
+
+}

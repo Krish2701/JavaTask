@@ -1,0 +1,10 @@
+package org.vote;
+
+public class voter_id {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

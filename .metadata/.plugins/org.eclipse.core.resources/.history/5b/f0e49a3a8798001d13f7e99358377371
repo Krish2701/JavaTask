@@ -1,0 +1,25 @@
+package org.bank;
+
+public class BankInfo {
+	void saving(int amount_available) {
+		System.out.println("The amount in the saving account is " + amount_available);
+	}
+	void fixed(int amount_available) {
+		System.out.println("The amount in the fixed account is " + amount_available);
+	}
+	void deposit(int amount_deposited) {
+		System.out.println("The amount deposited  is " + amount_deposited);
+	}
+}
+class AxisBank extends BankInfo{
+	public void deposit(int amt_deposited) {
+		super.deposit(amt_deposited);
+		System.out.println("The new amount deposited is " + amt_deposited*2);
+		
+	}
+	public static void main (String args[]) {
+		AxisBank ab = new AxisBank();
+		ab.deposit(2000);
+	}
+
+}

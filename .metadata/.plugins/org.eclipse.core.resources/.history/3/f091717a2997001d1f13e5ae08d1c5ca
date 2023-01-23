@@ -1,0 +1,26 @@
+package org.college;
+
+public class Dept {
+	private String collegeName;
+	private int collegeCode;
+	private int collegeRank;
+	public String getCollegeName() {
+		return collegeName;
+	}
+	public void setCollegeName(String collegeName) {
+		this.collegeName = collegeName;
+	}
+	public int getCollegeCode() {
+		return collegeCode;
+	}
+	public void setCollegeCode(int collegeCode) {
+		this.collegeCode = collegeCode;
+	}
+	public int getCollegeRank() {
+		return collegeRank;
+	}
+	public void setCollegeRank(int collegeRank) {
+		this.collegeRank = collegeRank;
+	}
+
+}

@@ -1,0 +1,74 @@
+package org.add;
+
+import java.util.Scanner;
+
+public class GreensTech {
+int pid;
+String prop_name;
+int prop_networth;
+String p_address;
+
+
+//GreensTech(int id, String name,int worth,String address){
+//	pid =id;
+//	prop_name=name;
+//	prop_networth=worth;
+//	p_address=address;
+//}
+void greensOmr()
+{
+	System.out.println(pid);
+	System.out.println(prop_name);
+	System.out.println(prop_networth);
+	System.out.println(p_address);
+}
+void greensAdayar()
+{
+	System.out.println(pid);
+	System.out.println(prop_name);
+	System.out.println(prop_networth);
+	System.out.println(p_address);
+}
+void greensTambaram()
+{
+	
+		
+	System.out.println(pid);
+	System.out.println(prop_name);
+	System.out.println(prop_networth);
+	System.out.println(p_address);
+}
+void greenVelacherry()
+{
+	System.out.println(pid);
+	System.out.println(prop_name);
+	System.out.println(prop_networth);
+	System.out.println(p_address);
+}
+void greensAnnaNagar()
+{
+	System.out.println(pid);
+	System.out.println(prop_name);
+	System.out.println(prop_networth);
+	System.out.println(p_address);
+}
+void display() {
+	greenVelacherry();
+}
+public static void main(String args[]) {
+	@SuppressWarnings("unused")
+	Scanner sc = new Scanner(System.in);
+	
+	
+	sc.close();
+	
+
+	
+	GreensTech gmp1=new GreensTech();
+	gmp1.display();
+}
+	
+
+
+
+}

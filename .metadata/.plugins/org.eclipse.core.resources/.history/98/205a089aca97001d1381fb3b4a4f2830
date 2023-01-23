@@ -1,0 +1,7 @@
+package org.all;
+
+public class Languageclass {
+	void alllanguage() {
+		System.out.println("The count of the Language Speakers");
+	}
+}
